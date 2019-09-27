@@ -18,7 +18,7 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
 ]
 
-urlpatterns = [
+
   url(r'^loguj/$', views.loguj, name='loguj'),
   url(r'^wyloguj/$', views.wyloguj, name='wyloguj'),
-]
+  url(r'^wiadomosci/$', views.wiadomosci, name='wiadomosci'),
